@@ -3,9 +3,19 @@
   padding: 0%;
 }
 
+@media screen and (min-width: 900px){
+  .container {
+    max-width: 100%;
+  }
+  .display{
+    max-width: 100%;
+  }
+}
+
 .container{
   margin: 0% auto;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 .navtop{
@@ -15,6 +25,7 @@
   background-color: rgb(37, 37, 37);
   padding: 1%;
   border-bottom: solid 2pt  rgb(78, 78, 78);
+  position: fixed;
   width: 100%;
 }
 
