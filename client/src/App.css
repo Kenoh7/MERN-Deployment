@@ -6,6 +6,8 @@
 .container{
   margin: 0% auto;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  overflow: auto;
 }
 
 .navtop{
@@ -15,9 +17,9 @@
   background-color: rgb(37, 37, 37);
   padding: 1%;
   border-bottom: solid 2pt  rgb(78, 78, 78);
-  position: relative;
-  box-sizing: inherit;
-  height: 100%;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
 }
 
 .navbtn{
