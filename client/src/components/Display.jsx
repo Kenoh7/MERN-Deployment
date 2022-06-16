@@ -38,10 +38,8 @@ const Display = () => {
         </header>
         <main>
             <div className="display">
-                <div className="displayt">
-                    <h2>Ken Oh</h2>
-                    <h3 className="head1">Software Engineer</h3>
-                </div>
+                <h2>Ken Oh</h2>
+                <h3 className="head1">Software Engineer</h3>
             </div>
             <div id="about" className="about">
                 <div>

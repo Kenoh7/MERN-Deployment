@@ -3,6 +3,17 @@
   padding: 0%;
 }
 
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
+}
 .container{
   width: 100%;
   display: flex;
@@ -39,24 +50,20 @@ a{
 .display{
   background-image:url("../public/background.jpeg");
   height: 1100px;
-  width: 100%;
+  width: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-bottom: solid 2pt  rgb(15, 38, 54);
-}
-
-.displayt{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 22%;
 }
 
 h2{
   font-size: 35pt;
   color: rgb(228, 228, 228);
+  text-align: center;
 }
 
 .head1{
@@ -264,7 +271,7 @@ h2{
 .parallax{
   background-image: url("../public/wallpaper1.png");
   width: 100%;
-  min-height: 280px;
+  height: 280px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -276,7 +283,7 @@ h2{
 
 .parallax1{
   background-image: url("../public/wallpaper2.png");
-  min-height: 280px;
+  height: 280px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -289,7 +296,7 @@ h2{
 
 .parallax2{
   background-image: url("../public/wallpaper4.png");
-  min-height: 280px;
+  height: 280px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
