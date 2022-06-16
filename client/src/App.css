@@ -1,0 +1,339 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navtop{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  padding: 0.8%;
+  border-bottom: solid 2pt  rgb(78, 78, 78);
+  position: fixed;
+  width: 100%;
+}
+
+.navbtn{
+  padding: 0% 2% 0% 0%;
+  font-weight: bold;
+}
+
+.navname{
+  color: rgb(230, 230, 230);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+  padding: 10px;
+}
+
+.display{
+  background-image:url("../public/background.jpeg");
+  height: 1100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2pt  rgb(15, 38, 54);
+}
+
+.displayt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 22%;
+}
+
+h2{
+  font-size: 35pt;
+  color: rgb(228, 228, 228);
+}
+
+.head1{
+  font-size: 35pt;
+  text-align: center;
+  color: rgb(242, 101, 101);
+}
+
+.head2{
+  font-size: 35pt;
+  color: white;
+  text-align: center;
+  /* padding: 4% 0% 0% 0%; */
+}
+
+.head3{
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+.head5{
+  font-size: 28pt;
+  color: white;
+  text-align: center;
+  padding: 4% 0% 0% 0%;
+}
+
+.head6{
+  font-size: 28pt;
+  color: white;
+  text-align: start;
+  padding: 2% 0%;
+}
+
+
+.about{
+  display: flex;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  padding: 4% 20%;
+  border-bottom: solid 1pt  rgb(19, 49, 71);
+  width: auto;
+}
+
+.adescript{
+  margin: 50px 50px 50px 0px;
+  font-size: 15pt;
+}
+
+.aimage{
+  height: 340px;
+  width:  auto;
+  border-radius: 5%;
+  margin: 1%;
+  border: 1pt solid rgb(109, 109, 109);;
+}
+
+.images{
+  text-align: center;
+  padding: 3%;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  font-size: 20pt;
+  padding: 2% 0% 30% 0%;
+  width: auto;
+}
+
+.resize{
+  height: 80px;
+  width: auto;
+  padding: 100px 80px;
+}
+
+.resize3{
+  height: 80px;
+  width: auto;
+}
+
+.spacing{
+  margin: 0% 3% 0% 0%;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 4% 20%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid 1pt  rgb(19, 49, 71);
+}
+
+.skill{
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 4% 20% 10% 20%;
+  border-bottom: solid 1pt  rgb(19, 49, 71);
+}
+
+.thead1{
+  color:#4db6ac;
+  font-size: 20pt;
+  padding: 0% 0% 5% 0%;
+  display: flex;
+  align-items: center;
+}
+
+.section{
+  display: flex;
+  border-bottom: solid 1pt  rgb(202, 202, 202);
+  padding: 3% 0% 3% 0%;
+}
+
+.section1{
+  display: flex;
+  padding: 3% 0% 3% 0%;
+}
+
+.section2{
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  padding: 0% 0% 5% 0%;
+}
+
+.section3{
+  display: flex;
+  justify-content: center;
+}
+
+.section4{
+  display: flex;
+  justify-content: center;
+  padding: 0% 0% 2% 0%;
+}
+
+.resize1{
+  height: 250px;
+  width: auto;
+  border: 1pt solid black;
+  box-shadow: 10px 10px 13px #bbbbbb;
+  border-radius: 3%;
+  margin: 0% 0% 0% 5%;
+}
+
+.resize2{
+  height: 60px;
+  width: auto;
+  margin: 5% 0% 0% 0%;
+}
+
+.normal{
+  color:#000000;
+  font-size: 12pt;
+}
+
+.font1{
+  text-align: end;
+  font-size: 15pt;
+  font-weight: bold;
+  padding: 5% 0% 0% 0%;
+}
+
+.font2{
+  font-size: 15pt;
+  padding: 5% 0% 0% 5%;
+}
+
+.font3{
+  font-size: 18pt;
+}
+
+.font4{
+  font-size: 17pt;
+}
+
+.space1{
+  padding: 0px 0px 30px 0px;
+}
+
+.space2{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.space3{
+  padding: 2% 0% 0% 0%;
+}
+
+.education{
+  background-color: rgb(255, 255, 255);
+  padding: 7% 0% 10% 0%;
+  border-bottom: solid 2pt  rgb(19, 49, 71);
+}
+
+
+.parallax{
+  background-image: url("../public/wallpaper1.png");
+  width: 100%;
+  min-height: 280px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parallax1{
+  background-image: url("../public/wallpaper2.png");
+  min-height: 280px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parallax2{
+  background-image: url("../public/wallpaper4.png");
+  min-height: 280px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centering{
+  display: flex;
+  justify-content: center;
+}
+
+.hover{
+  position: relative;
+  display: inline-block;
+}
+
+.hover .hovertext{
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 15pt;
+
+}
+
+.hover:hover .hovertext{
+  visibility: visible;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.white{
+  color: white;
+}
